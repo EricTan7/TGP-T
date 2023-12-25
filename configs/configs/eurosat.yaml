@@ -1,0 +1,45 @@
+DATASET:
+  NAME: "EuroSAT"
+
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 8
+  TEST:
+    BATCH_SIZE: 128
+  NUM_WORKERS: 8
+
+INPUT:
+  SIZE: (224, 224)
+  INTERPOLATION: "bicubic"
+  PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]
+  PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]
+  TRANSFORMS: ["random_resized_crop", "random_flip", "normalize"]
+  TEXT_AUG: "template_mining"
+
+OPTIM:
+  NAME: "adamw"
+  LR: 5e-5
+  LR_SCHEDULER: "cosine"
+  WARMUP_TYPE: "linear"
+  MAX_ITER: 51200
+  WARMUP_ITER: 100
+  WARMUP_LR: 1e-5
+
+TRAIN:
+  PRINT_FREQ: 50
+  TEST_FREQ: 200
+  SAVE_FREQ: 12800
+  DIST_TRAIN: False
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"
+  BONDER:
+    DEPTH: 1
+    NUM_Q_CTG: 32
+    NUM_Q_CON: 64
+
+TRAINER:
+  NAME: "TGPT"
+  PREC: "fp32"
+  CTX_INIT: "a photo of a"
