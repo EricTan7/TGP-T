@@ -6,7 +6,7 @@ Official implementation of the paper in AAAI 2024:
 
 [Hao Tan](https://scholar.google.com/citations?hl=zh-CN&user=gPEjNFcAAAAJ), [Jun Li](https://bazinga699.github.io/), [Yizhuang Zhou](https://scholar.google.com/citations?user=VRSGDDEAAAAJ), [Jun Wan](http://www.cbsr.ia.ac.cn/users/jwan/), [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ)
 
-[[PDF]([2312.06401.pdf (arxiv.org)](https://arxiv.org/pdf/2312.06401.pdf))]
+[[PDF](https://arxiv.org/pdf/2312.06401.pdf)]
 
 <p align="center">
     <img src="src/paradigm_comparison.gif" alt="TGP-T Paradigm">
