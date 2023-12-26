@@ -52,16 +52,16 @@ Follow these steps to prepare the datasets:
 | Dataset | # Descriptions | Avg. Sentence Length  | Example | Description |
 |---------|:----------------:|:----------------------:|:---------:|:-------------:|
 | Caltech101 | 8,242          | 20.04                | <img src="src/examples/caltech/image_0206.jpg" alt="Caltech Image" width="100" height="50"> |[Faces] The man in the image has a bald head and a scruffy beard. |
-| DTD | 5,640          | 17.64             | <img src="src/examples/dtd/studded_0134.jpg" alt="Caltech Image" width="100" height="60"> |[Studded] The couch has silver studs on the armrests and legs. |
-| EuroSAT | 27,000         | 19.81           | <img src="src/examples/eurosat/pasture_96.jpg" alt="Caltech Image" width="100" height="60"> |[Pasture] The pasture land in this image is an open field with green grass and dotted with small trees and bushes. |
-| FGVCAircraft | 3,334        | 21.43         | <img src="src/examples/aircraft/0829997.jpg" alt="Caltech Image" width="100" height="60"> |[A320] The A320 is a white airplane with red and white stripes and the German flag on the tail. |
-| Food101 | 101,000         | 21.34            | <img src="src/examples/food/2515221.jpg" alt="Caltech Image" width="100" height="60"> |[Hot dog] This hot dog has chili and cheese on it. |
-| ImageNet | 90,053         | 22.03           | <img src="src/examples/imagenet/n01498041_3238.JPEG" alt="Caltech Image" width="100" height="60"> |[Stingray] The stingray in the image is a large, majestic marine animal with a long, slender body and wide wings. |
-| StanfordCars | 8,144       | 21.67          | <img src="src/examples/cars/00013.jpg" alt="Caltech Image" width="100" height="50"> |[2007 Hyundai Elantra Sedan] The 2007 Hyundai Elantra Sedan is a sleek and stylish silver car on display at an auto show. |
-| OxfordPets | 3,680          | 22.34             | <img src="src/examples/pets/Ragdoll_141.jpg" alt="Caltech Image" width="100" height="80"> |[Ragdoll] The ragdoll cat in the image has blue eyes and a gray and white body with soft, fluffy fur. |
-| Flowers102 | 8,189          | 18.11             | <img src="src/examples/flowers/image_00128.jpg" alt="Caltech Image" width="100" height="60"> |[Passion flower] The passion flower is a beautiful purple flower with white stripes and a long stem. |
-| UCF101 | 7,639          | 19.62             | <img src="src/examples/ucf/v_BasketballDunk_g14.jpg" alt="Caltech Image" width="100" height="60"> |[Basketball_Dunk] This image shows a basketball player dunking the ball over an opponent during a game. |
-| SUN397 | 19,850        | 23.00             | <img src="src/examples/sun397/sun_adbjrupeylqaocyb.jpg" alt="Caltech Image" width="100" height="60"> |[Hospital_room] The hospital room has several beds, a desk, and modern medical equipment. |
+| DTD | 5,640          | 17.64             | <img src="src/examples/dtd/studded_0134.jpg" alt="DTD Image" width="100" height="60"> |[Studded] The couch has silver studs on the armrests and legs. |
+| EuroSAT | 27,000         | 19.81           | <img src="src/examples/eurosat/Pasture_96.jpg" alt="EuroSAT Image" width="100" height="60"> |[Pasture] The pasture land in this image is an open field with green grass and dotted with small trees and bushes. |
+| FGVCAircraft | 3,334        | 21.43         | <img src="src/examples/aircraft/0829997.jpg" alt="FGVCAircraft Image" width="100" height="60"> |[A320] The A320 is a white airplane with red and white stripes and the German flag on the tail. |
+| Food101 | 101,000         | 21.34            | <img src="src/examples/food/2515221.jpg" alt="Food101 Image" width="100" height="60"> |[Hot dog] This hot dog has chili and cheese on it. |
+| ImageNet | 90,053         | 22.03           | <img src="src/examples/imagenet/n01498041_3238.JPEG" alt="ImageNet Image" width="100" height="60"> |[Stingray] The stingray in the image is a large, majestic marine animal with a long, slender body and wide wings. |
+| StanfordCars | 8,144       | 21.67          | <img src="src/examples/cars/00013.jpg" alt="StanfordCars Image" width="100" height="50"> |[2007 Hyundai Elantra Sedan] The 2007 Hyundai Elantra Sedan is a sleek and stylish silver car on display at an auto show. |
+| OxfordPets | 3,680          | 22.34             | <img src="src/examples/pets/Ragdoll_141.jpg" alt="OxfordPets Image" width="100" height="80"> |[Ragdoll] The ragdoll cat in the image has blue eyes and a gray and white body with soft, fluffy fur. |
+| Flowers102 | 8,189          | 18.11             | <img src="src/examples/flowers/image_00128.jpg" alt="Flowers102 Image" width="100" height="60"> |[Passion flower] The passion flower is a beautiful purple flower with white stripes and a long stem. |
+| UCF101 | 7,639          | 19.62             | <img src="src/examples/ucf/v_BasketballDunk_g14.jpg" alt="UCF101 Image" width="100" height="60"> |[Basketball_Dunk] This image shows a basketball player dunking the ball over an opponent during a game. |
+| SUN397 | 19,850        | 23.00             | <img src="src/examples/sun397/sun_adbjrupeylqaocyb.jpg" alt="SUN397 Image" width="100" height="60"> |[Hospital_room] The hospital room has several beds, a desk, and modern medical equipment. |
 
 #### 3. Data organization
 - Put them in the same directory. For example, the directory structure should look like:
