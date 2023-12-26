@@ -8,6 +8,3 @@ do
         --use-wandb
     done
 done
-
-cp food-101/captions.txt google_drive/food-101
-cp -r food-101/split_fewshot2 google_drive/food-101/split_fewshot
