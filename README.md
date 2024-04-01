@@ -150,11 +150,14 @@ To inject rich semantic knowledge into prompts, we take advantages of `MiniGPT-4
 ## Citation
 
 ```
-@article{tan2023compound,
-  title={Compound Text-Guided Prompt Tuning via Image-Adaptive Cues},
+@inproceedings{tan2024compound,
+  title={Compound text-guided prompt tuning via image-adaptive cues},
   author={Tan, Hao and Li, Jun and Zhou, Yizhuang and Wan, Jun and Lei, Zhen and Zhang, Xiangyu},
-  journal={arXiv preprint arXiv:2312.06401},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={5},
+  pages={5061--5069},
+  year={2024}
 }
 ```
 
